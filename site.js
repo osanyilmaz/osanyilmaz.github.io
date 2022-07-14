@@ -9,7 +9,7 @@ $(document).ready(function() {
             $('input[type="email"],input[type="password"]').css("box-shadow", "0 0 3px red");
             alert("Please type your credentials...!!!");
         } else if(email == 'test@test.com' && password == '123'){
-        	window.location.href = "homepage.html";
+        	window.location.href = "https://osanyilmaz.github.io/homepage.html";
         	alert("Your credentials are OK!!");
         }else{
         	alert("Username or password is invalid.");
