@@ -11,6 +11,7 @@ $(document).ready(function() {
         } else if(email == 'test@test.com' && password == '123'){
         	window.location.href = "https://osanyilmaz.github.io/homepage.html";
         	alert("Your credentials are OK!!");
+            window.location.replace('www,google.com');
         }else{
         	alert("Username or password is invalid.");
         }
